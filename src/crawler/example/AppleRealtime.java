@@ -16,7 +16,7 @@ import com.google.common.collect.ImmutableSortedMap;
  * 重點：
  * 	1. regular expression 使用
  * 	2. 使用Guava套件，強化許多難以實現的功能
- * 
+ *   3. TestGit
  * 
  * @author Abola Lee
  *
