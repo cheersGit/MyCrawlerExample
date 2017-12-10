@@ -39,9 +39,9 @@ public class PttExample {
 			    // 這兒開始是 Jsoup Document 物件操作
 			    //.select(".css .selector ")
 				//取出作者
-						.select("#main-content > div:nth-child(1) > span.article-meta-value")
+					//	.select("#main-content > div:nth-child(1) > span.article-meta-value")
 
-
+						.select("span.hl.push-tag:contains(推)")
 		);
 	}
 }
