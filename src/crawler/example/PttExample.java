@@ -22,7 +22,7 @@ public class PttExample {
 		// 遠端資料路徑
 		//String uri = "https://pm25.lass-net.org/data/last-all-airbox.json";
 		//String uri="http://www.twse.com.tw/exchangeReport/MI_INDEX?response=html&date=20171204&type=MS";
-		String uri="https://www.ptt.cc/bbs/Food/M.1512871330.A.708.html";
+		String uri="https://www.ptt.cc/bbs/CVS/M.1512819517.A.AF8.html";
 		System.out.println(
 				CrawlerPack.start()
 				
@@ -38,7 +38,10 @@ public class PttExample {
 
 			    // 這兒開始是 Jsoup Document 物件操作
 			    //.select(".css .selector ")
-			    
+				//取出作者
+						.select("#main-content > div:nth-child(1) > span.article-meta-value")
+
+
 		);
 	}
 }
