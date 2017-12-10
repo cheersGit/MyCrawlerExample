@@ -32,7 +32,7 @@ public class PttReExample {
 				.getFromHtml(uri)
 				.select("#main-content");
 		System.out.println(jsoup.select("span,div").remove());
-		//.setRemoteEncoding("big5")// 設定遠端資料文件編碼
+		//.setRemoteEncoding("big5") // 設定遠端資料文件編碼
 
 
 
