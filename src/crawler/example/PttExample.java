@@ -41,7 +41,8 @@ public class PttExample {
 				//取出作者
 					//	.select("#main-content > div:nth-child(1) > span.article-meta-value")
 
-						.select("span.hl.push-tag:contains(推)")
+						//.select("span.hl.push-tag:contains(推)")
+						.select("span.hl.push-tag:contains(推)+span.f3.hl.push-userid")
 		);
 	}
 }
