@@ -14,7 +14,8 @@ public class FBElasticImport {
     static String elasticPort = "9200" ;
     static String elasticIndex = "cheersgit";
     static String elasticIndexType = "data";
-    static String pageName = "mirrormediamg";
+    static String pageName = "cnn";
+    //static String pageName = "mirrormediamg";
     //static String pageName = "appledaily.tw";
     // 2017-09-02
     static long start = 1512871850 ;
